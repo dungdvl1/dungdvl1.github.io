@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    height: 100vh;
+
+    .slide {
+        height: 89vh !important;
+        position: relative;
+
+        .bd-example {
+            height: 100%;
+
+            .carousel-inner {
+                height: 100%;
+
+                .carousel-item {
+                    height: 100%;
+
+                    .play {
+                        width: 80px;
+                        height: 74px;
+                        border: 1px solid #fff;
+                        border-radius: 50%;
+                    }
+
+                    img {
+                        height: 100%;
+                    }
+                }
+            }
+
+
+        }
+    }
+
+    .muavengay {
+        height: 100px;
+        margin-top: 50px;
+
+        .dropdown {
+            box-shadow: 0 0 10px 3px #dddddd;
+            width: 600px;
+            height: 60px;
+            line-height: 50px;
+            padding: 3px 10px;
+            border-radius: 5px;
+            margin: 0 auto;
+
+            .button-muave {
+                float: right;
+            }
+
+        }
+    }
+
+    .list {
+        height: 500px;
+
+        .title {
+            a {
+                text-decoration: none;
+                font-size: 22px;
+                color: #333333;
+                font-weight: 600;
+
+                transition: 0.3s;
+
+                &:hover {
+                    color: red;
+                    font-size: 26px;
+                }
+
+                &:first-child {
+                    margin-right: 30px;
+                }
+
+            }
+        }
+
+    }
+
+}

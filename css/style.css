@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  height: 100vh;
+}
+
+body .slide {
+  height: 89vh !important;
+  position: relative;
+}
+
+body .slide .bd-example {
+  height: 100%;
+}
+
+body .slide .bd-example .carousel-inner {
+  height: 100%;
+}
+
+body .slide .bd-example .carousel-inner .carousel-item {
+  height: 100%;
+}
+
+body .slide .bd-example .carousel-inner .carousel-item .play {
+  width: 80px;
+  height: 74px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+}
+
+body .slide .bd-example .carousel-inner .carousel-item img {
+  height: 100%;
+}
+
+body .muavengay {
+  height: 100px;
+  margin-top: 50px;
+}
+
+body .muavengay .dropdown {
+  -webkit-box-shadow: 0 0 10px 3px #dddddd;
+          box-shadow: 0 0 10px 3px #dddddd;
+  width: 600px;
+  height: 60px;
+  line-height: 50px;
+  padding: 3px 10px;
+  border-radius: 5px;
+  margin: 0 auto;
+}
+
+body .muavengay .dropdown .button-muave {
+  float: right;
+}
+
+body .list {
+  height: 500px;
+}
+
+body .list .title a {
+  text-decoration: none;
+  font-size: 22px;
+  color: #333333;
+  font-weight: 600;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+body .list .title a:hover {
+  color: red;
+  font-size: 26px;
+}
+
+body .list .title a:first-child {
+  margin-right: 30px;
+}
+/*# sourceMappingURL=style.css.map */
