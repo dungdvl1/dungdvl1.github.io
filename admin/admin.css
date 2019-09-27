@@ -76,6 +76,7 @@ body {
 
 .main .right .header .navbar {
   background-color: #e9ebec !important;
+  height: 55px !important;
 }
 
 .main .right .navbar-brand {
@@ -84,6 +85,12 @@ body {
 
 .main .right .header .nav-item {
   color: #33333a !important;
+}
+
+.header .content-page .btn {
+  padding: 5px !important;
+  align-items: center;
+  color: #fff !important;
 }
 
 /* content-page */

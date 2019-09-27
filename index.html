@@ -19,7 +19,7 @@
 
     <header>
         <nav class="navbar navbar-expand-sm navbar-light bg-light">
-            <a class="navbar-brand" href="#">Logo</a>
+            <a class="navbar-brand" href="#">logo</a>
             <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse"
                 data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -60,22 +60,29 @@
                     <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
                     <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
                     <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                    <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
                 </ol>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="images/avengers.jpg" class="d-block w-100" alt="...">
+                        <img src="images/slide/1.jpg" class="d-block w-100" alt="...">
                         <div class="carousel-caption d-none d-md-block">
                             <button class="play">Play</button>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="images/avengers.jpg" class="d-block w-100" alt="...">
+                        <img src="images/slide/2.jpg" class="d-block w-100" alt="...">
                         <div class="carousel-caption d-none d-md-block">
                             <button class="play">Play</button>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="images/avengers.jpg" class="d-block w-100" alt="...">
+                        <img src="images/slide/3.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <button class="play">Play</button>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/slide/4.jpg" class="d-block w-100" alt="...">
                         <div class="carousel-caption d-none d-md-block">
                             <button class="play">Play</button>
                         </div>
@@ -102,36 +109,36 @@
                 Phim
             </a>
             <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <a class="dropdown-item" href="#">Something else here</a>
+                <a class="dropdown-item" href="#">Action1</a>
+                <a class="dropdown-item" href="#">Another action1</a>
+                <a class="dropdown-item" href="#">Something else here1</a>
             </div>
             <a class="btn dropdown-toggle" href="#" role="button" id="selectrapchieu" data-toggle="dropdown"
                 aria-haspopup="true" aria-expanded="false">
                 Rạp
             </a>
             <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <a class="dropdown-item" href="#">Something else here</a>
+                <a class="dropdown-item" href="#">Action2</a>
+                <a class="dropdown-item" href="#">Another action2</a>
+                <a class="dropdown-item" href="#">Something else here2</a>
             </div>
             <a class="btn dropdown-toggle" href="#" role="button" id="selectngayxem" data-toggle="dropdown"
                 aria-haspopup="true" aria-expanded="false">
                 Ngày xem
             </a>
             <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <a class="dropdown-item" href="#">Something else here</a>
+                <a class="dropdown-item" href="#">Action3</a>
+                <a class="dropdown-item" href="#">Another action3</a>
+                <a class="dropdown-item" href="#">Something else here3</a>
             </div>
             <a class="btn dropdown-toggle" href="#" role="button" id="selectsuatchieu" data-toggle="dropdown"
                 aria-haspopup="true" aria-expanded="false">
                 Ngày xem
             </a>
             <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <a class="dropdown-item" href="#">Something else here</a>
+                <a class="dropdown-item" href="#">Action4</a>
+                <a class="dropdown-item" href="#">Another action4</a>
+                <a class="dropdown-item" href="#">Something else here4</a>
             </div>
             <div class="button-muave">
                 <button class="btn">Mua vé ngay</button>
@@ -143,14 +150,432 @@
 
     <div class="list">
         <div class="container">
+            <!-- start title -->
             <div class="title text-center">
-                <a href="#">Đang Chiếu</a>
+                <a href="#" class="active">Đang Chiếu</a>
                 <a href="#">Sắp Chiếu</a>
             </div>
+            <!-- end title -->
+            <!-- start list film -->
+            <div class="list-film">
+                <div class="row">
+                    <div class="col-md-3 col-sm-4 khoifilm">
+                        <div class="img">
+                            <div class="man"></div>
+                            <img src="images/list-film/khoihinh.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class="title-film">
+                            <h6>Siêu Quậy Có Bầu - Naughty Teenager</h6>
+                            <p>100 phút</p>
+                        </div>
+                        <div class="button-play">
+                            <img src="images/button/play-video.png" alt="">
+                        </div>
+                        <div class="button-muave">
+                            <a href="#">Mua vé</a>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-4 khoifilm">
+                        <div class="img">
+                            <div class="man"></div>
+                            <img src="images/list-film/khoihinh2.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class="title-film">
+                            <h6>Siêu Quậy Có Bầu - Naughty Teenager</h6>
+                            <p>100 phút</p>
+                        </div>
+                        <div class="button-play">
+                            <img src="images/button/play-video.png" alt="">
+                        </div>
+                        <div class="button-muave">
+                            <a href="#">Mua vé</a>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-4 khoifilm">
+                        <div class="img">
+                            <div class="man"></div>
+                            <img src="images/list-film/khoihinh2.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class="title-film">
+                            <h6>Siêu Quậy Có Bầu - Naughty Teenager</h6>
+                            <p>100 phút</p>
+                        </div>
+                        <div class="button-play">
+                            <img src="images/button/play-video.png" alt="">
+                        </div>
+                        <div class="button-muave">
+                            <a href="#">Mua vé</a>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-4 khoifilm">
+                        <div class="img">
+                            <div class="man"></div>
+                            <img src="images/list-film/hinh3.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class="title-film">
+                            <h6>Siêu Quậy Có Bầu - Naughty Teenager</h6>
+                            <p>100 phút</p>
+                        </div>
+                        <div class="button-play">
+                            <img src="images/button/play-video.png" alt="">
+                        </div>
+                        <div class="button-muave">
+                            <a href="#">Mua vé</a>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-4 khoifilm">
+                        <div class="img">
+                            <div class="man"></div>
+                            <img src="images/list-film/khoihinh.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class="title-film">
+                            <h6>Siêu Quậy Có Bầu - Naughty Teenager</h6>
+                            <p>100 phút</p>
+                        </div>
+                        <div class="button-play">
+                            <img src="images/button/play-video.png" alt="">
+                        </div>
+                        <div class="button-muave">
+                            <a href="#">Mua vé</a>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-4 khoifilm">
+                        <div class="img">
+                            <div class="man"></div>
+                            <img src="images/list-film/khoihinh2.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class="title-film">
+                            <h6>Siêu Quậy Có Bầu - Naughty Teenager</h6>
+                            <p>100 phút</p>
+                        </div>
+                        <div class="button-play">
+                            <img src="images/button/play-video.png" alt="">
+                        </div>
+                        <div class="button-muave">
+                            <a href="#">Mua vé</a>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-4 khoifilm">
+                        <div class="img">
+                            <div class="man"></div>
+                            <img src="images/list-film/khoihinh2.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class="title-film">
+                            <h6>Siêu Quậy Có Bầu - Naughty Teenager</h6>
+                            <p>100 phút</p>
+                        </div>
+                        <div class="button-play">
+                            <img src="images/button/play-video.png" alt="">
+                        </div>
+                        <div class="button-muave">
+                            <a href="#">Mua vé</a>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-4 khoifilm">
+                        <div class="img">
+                            <div class="man"></div>
+                            <img src="images/list-film/hinh3.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class="title-film">
+                            <h6>Siêu Quậy Có Bầu - Naughty Teenager</h6>
+                            <p>100 phút</p>
+                        </div>
+                        <div class="button-play">
+                            <img src="images/button/play-video.png" alt="">
+                        </div>
+                        <div class="button-muave">
+                            <a href="#">Mua vé</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- end list film -->
 
-            .list-film
-            <div class="brea"></div>
+            <!-- start list ads cinema -->
+            <div class="list-cinema">
+                <div class="row">
+                    <div class="col-md-2 hethongrap">
+                        <ul>
+                            <li class="active">
+                                <a href="#">
+                                    <img src="images/logo_cinema/hbd.png" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/logo_cinema/galaxy.png" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/logo_cinema/sao.png" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/logo_cinema/mega.png" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/logo_cinema/ddc.png" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="images/logo_cinema/lotte.png" alt="">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-4 rap">
+                        <div class="wrapcinema">
+                            <div class="_1cinema active">
+                                <div class="hinh"><img src="images/logo_cinema/bhd/1.jpg" alt=""></div>
+                                <div class="content">
+                                    <span class="title">BHD Star Cineplex</span> -
+                                    <span class="diachi">Bitexco</span>
+                                    <br>
+                                    <p>L3-Bitexco Icon 68, 2 Hải Triều</p>
+                                    <a href="#">[Chi tiet]</a>
+                                </div>
+                            </div>
+                            <div class="_1cinema">
+                                <div class="hinh"><img src="images/logo_cinema/bhd/5.jpg" alt=""></div>
+                                <div class="content">
+                                    <span class="title">BHD Star Cineplex</span> -
+                                    <span class="diachi">Bitexco</span>
+                                    <br>
+                                    <p>L3-Bitexco Icon 68, 2 Hải Triều</p>
+                                    <a href="#">[Chi tiet]</a>
+                                </div>
+                            </div>
+                            <div class="_1cinema">
+                                <div class="hinh"><img src="images/logo_cinema/bhd/6.jpg" alt=""></div>
+                                <div class="content">
+                                    <span class="title">BHD Star Cineplex</span> -
+                                    <span class="diachi">Bitexco</span>
+                                    <br>
+                                    <p>L3-Bitexco Icon 68, 2 Hải Triều</p>
+                                    <a href="#">[Chi tiet]</a>
+                                </div>
+                            </div>
+                            <div class="_1cinema">
+                                <div class="hinh"><img src="images/logo_cinema/bhd/2.jpg" alt=""></div>
+                                <div class="content">
+                                    <span class="title">BHD Star Cineplex</span> -
+                                    <span class="diachi">Bitexco</span>
+                                    <br>
+                                    <p>L3-Bitexco Icon 68, 2 Hải Triều</p>
+                                    <a href="#">[Chi tiet]</a>
+                                </div>
+                            </div>
+                            <div class="_1cinema">
+                                <div class="hinh"><img src="images/logo_cinema/bhd/3.jpg" alt=""></div>
+                                <div class="content">
+                                    <span class="title">BHD Star Cineplex</span> -
+                                    <span class="diachi">Bitexco</span>
+                                    <br>
+                                    <p>L3-Bitexco Icon 68, 2 Hải Triều</p>
+                                    <a href="#">[Chi tiet]</a>
+                                </div>
+                            </div>
+                            <div class="_1cinema">
+                                <div class="hinh"><img src="images/logo_cinema/bhd/4.jpg" alt=""></div>
+                                <div class="content">
+                                    <span class="title">BHD Star Cineplex</span> -
+                                    <span class="diachi">Bitexco</span>
+                                    <br>
+                                    <p>L3-Bitexco Icon 68, 2 Hải Triều</p>
+                                    <a href="#">[Chi tiet]</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 danh-sach-film">
+                        <div class="film">
+                            <div class="title-top">
+                                <div class="image">
+                                    <img src="images/list-film/khoihinh.jpg" alt="">
+                                </div>
+                                <div class="title-film">
+                                    <h6>Gã Hề Ma Quái 2 - It Chapter Two</h6>
+                                    <p>172 phút - 123Phim 7.9 - IMDb 7.9</p>
+                                </div>
+                            </div>
+                            <!--_________________________ end title - top -->
+                            <div class="clr"></div>
+                            <div class="title-below">
+                                <div class="loai">
+                                    <img src="images/loai_film/2_0.png" alt="">
+                                </div>
+                                <div class="thoi-gian-chieu">
+                                    <span><a href="#">12:25</a></span>
+                                    <span><a href="#">12:25</a></span>
+                                    <span><a href="#">12:25</a></span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="film">
+                            <div class="title-top">
+                                <div class="image">
+                                    <img src="images/list-film/khoihinh.jpg" alt="">
+                                </div>
+                                <div class="title-film">
+                                    <h6>Gã Hề Ma Quái 2 - It Chapter Two</h6>
+                                    <p>172 phút - 123Phim 7.9 - IMDb 7.9</p>
+                                </div>
+                            </div>
+                            <!--_________________________ end title - top -->
+                            <div class="clr"></div>
+                            <div class="title-below">
+                                <div class="loai">
+                                    <img src="images/loai_film/2_0.png" alt="">
+                                </div>
+                                <div class="thoi-gian-chieu">
+                                    <span><a href="#">12:25</a></span>
+                                    <span><a href="#">12:25</a></span>
+                                    <span><a href="#">12:25</a></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="film">
+                            <div class="title-top">
+                                <div class="image">
+                                    <img src="images/list-film/khoihinh.jpg" alt="">
+                                </div>
+                                <div class="title-film">
+                                    <h6>Gã Hề Ma Quái 2 - It Chapter Two</h6>
+                                    <p>172 phút - 123Phim 7.9 - IMDb 7.9</p>
+                                </div>
+                            </div>
+                            <!--_________________________ end title - top -->
+                            <div class="clr"></div>
+                            <div class="title-below">
+                                <div class="loai">
+                                    <img src="images/loai_film/2_0.png" alt="">
+                                </div>
+                                <div class="thoi-gian-chieu">
+                                    <span><a href="#">12:25</a></span>
+                                    <span><a href="#">12:25</a></span>
+                                    <span><a href="#">12:25</a></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="film">
+                            <div class="title-top">
+                                <div class="image">
+                                    <img src="images/list-film/khoihinh.jpg" alt="">
+                                </div>
+                                <div class="title-film">
+                                    <h6>Gã Hề Ma Quái 2 - It Chapter Two</h6>
+                                    <p>172 phút - 123Phim 7.9 - IMDb 7.9</p>
+                                </div>
+                            </div>
+                            <!--_________________________ end title - top -->
+                            <div class="clr"></div>
+                            <div class="title-below">
+                                <div class="loai">
+                                    <img src="images/loai_film/2_0.png" alt="">
+                                </div>
+                                <div class="thoi-gian-chieu">
+                                    <span><a href="#">12:25</a></span>
+                                    <span><a href="#">12:25</a></span>
+                                    <span><a href="#">12:25</a></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- end list ads cinema -->
         </div>
+
+        <footer>
+            <div class="footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-2">
+                            <div class="title">
+                                phim 93
+                            </div>
+                        </div>
+                        <div class="col-sm-2">
+                            <div class="thongtin">
+                                <ul>
+                                    <li><a href="#">Thỏa thuận sử dụng</a></li>
+                                    <li><a href="#">Quy chế hoạt động</a></li>
+                                    <li><a href="#">Chính sách bảo mật</a></li>
+                                    <li><a href="#">Quyền lợi thành viên</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="title text-left ml-2">
+                                Đối tác
+                            </div>
+                            <div class="list-cinema">
+                                <ul>
+                                    <li><img src="images/logo/list-logo-cinema/bhd.png" alt=""></li>
+                                    <li><img src="images/logo/list-logo-cinema/bt.jpg" alt=""></li>
+                                    <li><img src="images/logo/list-logo-cinema/cinestar.png" alt=""></li>
+                                    <li><img src="images/logo/list-logo-cinema/cnx.jpg" alt=""></li>
+                                    <li><img src="images/logo/list-logo-cinema/bhd.png" alt=""></li>
+                                    <li><img src="images/logo/list-logo-cinema/bt.jpg" alt=""></li>
+                                    <li><img src="images/logo/list-logo-cinema/cinestar.png" alt=""></li>
+                                    <li><img src="images/logo/list-logo-cinema/cnx.jpg" alt=""></li>
+                                    <li><img src="images/logo/list-logo-cinema/bhd.png" alt=""></li>
+                                    <li><img src="images/logo/list-logo-cinema/bt.jpg" alt=""></li>
+                                    <li><img src="images/logo/list-logo-cinema/cinestar.png" alt=""></li>
+                                    <li><img src="images/logo/list-logo-cinema/cnx.jpg" alt=""></li>
+                                    <li><img src="images/logo/list-logo-cinema/bhd.png" alt=""></li>
+                                    <li><img src="images/logo/list-logo-cinema/bt.jpg" alt=""></li>
+                                    <li><img src="images/logo/list-logo-cinema/cinestar.png" alt=""></li>
+                                    <li><img src="images/logo/list-logo-cinema/cnx.jpg" alt=""></li>
+                                    <li><img src="images/logo/list-logo-cinema/cinestar.png" alt=""></li>
+                                    <li><img src="images/logo/list-logo-cinema/cnx.jpg" alt=""></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-sm-2">
+                            <div class="title text-left ml-2">
+                                Mobile App
+                            </div>
+                            <div class="logo list-cinema">
+                                <ul>
+                                    <li><img src="images/logo/apple-logo.png" alt=""></li>
+                                    <li><img src="images/logo/android-logo.png" alt=""></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-sm-2">
+                            <div class="title text-left ml-2">
+                                Social
+                            </div>
+                            <div class="logo list-cinema">
+                                <ul>
+                                    <li><img src="images/logo/facebook-logo.png" alt=""></li>
+                                    <li><img src="images/logo/zalo-logo.png" alt=""></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <hr class="hrfooter">
+
+                    <div class="gioithieu">
+                        <h6>Trang web là sản phẩm của : <strong>Lương Văn Dũng</strong></h6>
+                        <p>Sinh viên lớp : D16 - TH08</p>
+                        <p>Email: <a href="#">dungluong0688@gmail.com</a></p>
+                        <p>Trường : Đại học công nghệ sài gòn</p>
+                        <p>Địa chỉ : 180 cao lỗ, phường 4, quận 8</p>
+                    </div>
+
+                </div>
+            </div>
+        </footer>
+
+        <!-- end footer -->
     </div>
 
 
